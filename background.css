@@ -1,0 +1,71 @@
+html{
+font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+/*top*/
+.header {
+padding: 10px 0;
+display: table;
+height: 700px;
+width: 100%;
+position: relative;
+background: url(features_bg.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.vert-text {
+padding-top: 100px;
+vertical-align: middle;
+text-align: center;
+}
+h1{
+padding:  50px 50px 10px 50px;
+font-size: 100px;
+color: #00a381;
+font-weight: bold;
+text-align: center;
+font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+/*profile*/
+.profile {
+display: table;
+height: 700px;
+width: 100%;
+position: relative;
+background: no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #262626;
+}
+h2{
+padding: 50px 10px 50px 50px;
+font-size: 100px;
+color: #00a381;
+text-align: center;
+font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+dl {
+  padding-left: 500px;
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+dt {
+  color: #FFFFFF;
+      display: block;
+          clear: both;
+          float:left;
+    width: 100px;
+}
+dd {
+  color: #0073a8;
+  margin-left:80px;
+    display: block;
+    -webkit-margin-start: 40px;
+}
+/*service*/

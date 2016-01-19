@@ -4,15 +4,64 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>yusuke portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--ページ内スクロール-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+$(function(){
+	$('a[href^=#]').click(function(){
+		var speed = 600;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
+    <link rel="stylesheet" type="text/css" href="background.css" media="screen,print" />
+    <link rel="stylesheet" type="text/css" href="btn.css" media="screen,print" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <body bgcolor="#e2e2e2">
+      <div id="top" class="header">
+        <div class="vert-text">
+          <h1>Portfolio</h1>
+        <p>
+          <a href="#introduction" class="btn outline btn-default btn-xs">Profile</a>
+          <a href="#webservice" class="btn outline btn-default btn-xs">Services</a>
+        </p>
+        </div>
+      </div>
+      <div id="introduction" class="profile">
+        <h2>Profile</h2>
+        <dl link="#007199">
+          <dt>Name>></dt>
+          <dd>Yusuke Inukai</dd>
+          <dt>Mail>></dt>
+          <dd>techsuke@gmail.com</dd>
+          <dt>Blog>></dt>
+          <dd><a href="https://yi303.wordpress.com/">https://yi303.wordpress.com/</a></dd>
+          <dt>Facebook>></dt>
+          <dd><a href="https://www.facebook.com/ydog.kaeruomoi">https://www.facebook.com/ydog.kaeruomoi</a></dd>
+          <dt>Twitter>></dt>
+          <dd><a href="https://twitter.com/inuyusuke_1ch">https://twitter.com/inuyusuke_1ch</a></dd>
+          <dt>Github>></dt>
+          <dd><a href="https://github.com/yusukex">https://github.com/yusukex</a></dd>
+        </dl>
+      </div>
+      <div id="webservice"class="webservices">
+        <h2>Services</h2>
+        <div class="container">
+          <div class="block">
+         </div>
+        </div>
+      </div>
   </body>
 </html>

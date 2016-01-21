@@ -3,6 +3,7 @@ font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdan
 }
 body{
     -webkit-text-size-adjust: 100%;
+    background-color: #e2e2e2;
 }
 /*top*/
 .header {
@@ -52,6 +53,7 @@ font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdan
 }
 dl {
   padding-left: 500px;
+  text-align: center;
   display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
@@ -59,15 +61,16 @@ dl {
     -webkit-margin-end: 0px;
 }
 dt {
+  float:left;
   color: #FFFFFF;
-      display: block;
-          clear: both;
-          float:left;
+  display: block;
+  clear: both;
     width: 100px;
 }
 dd {
-  color:0073a8;
-  margin-left:80px;
+  float: left;
+  color:#0073a8;
+  margin-left:10px;
     display: block;
     -webkit-margin-start: 40px;
 }
